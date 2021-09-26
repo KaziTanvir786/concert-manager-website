@@ -3,9 +3,17 @@
     justify-content: center;
 }
 .top-bar{
-    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.692);
     text-align: center;
-    border-radius: 10px;
+    padding: 5px;
+    color: whitesmoke;
+}
+.text-style{
+    color: rgb(206, 17, 17);
+    font-size: 25px;
+}
+.text-style-big{
+    color: rgb(206, 17, 17);
 }
 .navbar{
     display: flex;

@@ -4,8 +4,8 @@ const Header = () => {
     return (
         <div className="header-container">
             <div className="top-bar">
-                <h4>Make your own concert with your favourite bands.</h4>
-                <h2>Budget: 15000000</h2>
+                <h3>Make your own <span className="text-style">concert</span> with your favourite bands</h3>
+                <h2>Budget: <span className="text-style-big">$1500</span></h2>
             </div>
             <nav className="navbar">
                 <p><a href="/home">Home</a></p>
