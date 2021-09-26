@@ -1,0 +1,29 @@
+.header-container{
+    display: flexbox;
+    justify-content: center;
+}
+.top-bar{
+    margin: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar p a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+}
+.navbar p a:hover{
+    background-color: black;
+    color: white;
+}

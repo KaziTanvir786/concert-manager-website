@@ -1,0 +1,18 @@
+.booking-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* align-items: center; */
+    text-align: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: teal;
+    margin-left: 20px;
+    padding: 10px;
+}
+.cart{
+    background-color: tomato;
+    margin-right: 20px;
+    padding: 10px;
+}

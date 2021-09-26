@@ -1,0 +1,29 @@
+.image-container{
+    height: 180px;
+}
+img{
+    width: 200px;
+    border-radius: 10px;
+}
+.card{
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px black;
+}
+.btn-add{
+    background-color: burlywood;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-add:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
