@@ -6,7 +6,7 @@ const Header = () => {
             {/* title bar */}
             <div className="top-bar">
                 <h1>Concert <span className="text-style-big">Manager</span> | <span className="small-text">Throw a concert now</span> </h1>
-                <h3>Budget: <span className="text-style-big">$1500</span></h3>
+                <h3>Budget: <span className="text-style-big">$15000</span></h3>
             </div>
             {/* navbar */}
             <nav className="navbar">
