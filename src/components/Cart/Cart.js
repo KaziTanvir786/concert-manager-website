@@ -3,11 +3,13 @@ import Band from '../Band/Band';
 import './Cart.css';
 const Cart = (props) => {
     const { cart } = props;
+    // calculating total
     let total = 0;
     for (const band of cart) {
         total = total + band.bookingCost;
     }
     return (
+        // showing cart
         <div className="cart-container">
             <h3 className="cart-title">Selection Summary</h3>
             <div className="selected-bands">

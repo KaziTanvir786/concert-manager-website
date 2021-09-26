@@ -8,6 +8,7 @@ const Card = (props) => {
     const addIcon = <FontAwesomeIcon icon={faPlus} />
     const guitarIcon = <FontAwesomeIcon icon={faGuitar} />
     return (
+        // showing cards including each bands information
         <div className="card">
             <h4 className="card-title">{guitarIcon} {name}</h4>
             <div className="image-container">

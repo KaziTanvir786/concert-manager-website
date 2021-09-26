@@ -1,3 +1,4 @@
+// creating dummy variable for making JSON data
 const bands = [
     {
         id: 1,
