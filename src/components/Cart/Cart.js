@@ -16,14 +16,16 @@ const Cart = (props) => {
                 }
             </div>
             <table>
-                <tr>
-                    <td className="cart-row-title"><h3>Band selected: </h3></td>
-                    <td><h3>{props.cart.length}</h3></td>
-                </tr>
-                <tr>
-                    <td className="cart-row-title"><h3>Total Charge: </h3></td>
-                    <td><h3>${total}</h3></td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <td className="cart-row-title"><h3>Band selected: </h3></td>
+                        <td><h3>{props.cart.length}</h3></td>
+                    </tr>
+                    <tr>
+                        <td className="cart-row-title"><h3>Total Charge: </h3></td>
+                        <td><h3>${total}</h3></td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     );

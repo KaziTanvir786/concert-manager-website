@@ -4,8 +4,7 @@ import { faPlus, faGuitar } from '@fortawesome/free-solid-svg-icons';
 import './Card.css';
 
 const Card = (props) => {
-    console.log(props);
-    const { id, name, genre, country, vocal, img, year, bookingCost } = props.band;
+    const { name, genre, country, vocal, img, year, bookingCost } = props.band;
     const addIcon = <FontAwesomeIcon icon={faPlus} />
     const guitarIcon = <FontAwesomeIcon icon={faGuitar} />
     return (
@@ -17,26 +16,28 @@ const Card = (props) => {
             <div className="card-details">
                 <p className="year-text"><small>Since {year}</small></p>
                 <table>
-                    <tr>
-                        <td className="row-title"><h4>Genre: </h4></td>
-                        <td></td>
-                        <td>{genre}</td>
-                    </tr>
-                    <tr>
-                        <td className="row-title"><h4>Origin: </h4></td>
-                        <td></td>
-                        <td>{country}</td>
-                    </tr>
-                    <tr>
-                        <td className="row-title"><h4>Vocal: </h4></td>
-                        <td></td>
-                        <td>{vocal}</td>
-                    </tr>
-                    <tr>
-                        <td className="row-title"><h4>Charge: </h4></td>
-                        <td></td>
-                        <td><span className="booking-charge">${bookingCost}</span></td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td className="row-title"><h4>Genre: </h4></td>
+                            <td></td>
+                            <td>{genre}</td>
+                        </tr>
+                        <tr>
+                            <td className="row-title"><h4>Origin: </h4></td>
+                            <td></td>
+                            <td>{country}</td>
+                        </tr>
+                        <tr>
+                            <td className="row-title"><h4>Vocal: </h4></td>
+                            <td></td>
+                            <td>{vocal}</td>
+                        </tr>
+                        <tr>
+                            <td className="row-title"><h4>Charge: </h4></td>
+                            <td></td>
+                            <td><span className="booking-charge">${bookingCost}</span></td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
             <button
