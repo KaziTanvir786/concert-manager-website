@@ -4,24 +4,21 @@
 }
 .top-bar{
     margin: 20px;
-    padding: 10px;
-    background-color: slategray;
     text-align: center;
     border-radius: 10px;
 }
 .navbar{
     display: flex;
     justify-content: center;
-    background-color: steelblue;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
+    background-color: brown;
 }
 .navbar p a{
     text-decoration: none;
     padding: 10px;
-    color: black;
+    color:black;
     border-radius: 5px;
+    transition: 0.3s;
+    font-weight: 500;
 }
 .navbar p a:hover{
     background-color: black;

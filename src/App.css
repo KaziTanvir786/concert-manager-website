@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+:root{
+  background-image: url(https://cutewallpaper.org/21/concert-crowd-wallpaper/Rock-Concert-Wallpaper-66+-images-.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

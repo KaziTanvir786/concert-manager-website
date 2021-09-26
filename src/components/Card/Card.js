@@ -14,7 +14,7 @@ const Card = (props) => {
                 <img src={img} alt="" />
             </div>
             <div className="card-details">
-                <p><small>Since {year}</small></p>
+                <p className="year-text"><small>Since {year}</small></p>
                 <table>
                     <tr>
                         <td className="row-title"><h4>Genre: </h4></td>
@@ -40,7 +40,7 @@ const Card = (props) => {
             </div>
             <button
                 onClick={() => props.handleAddButton(props.band)}
-                className="btn-add">{addIcon}  Add to Concert</button>
+                className="btn-add">{addIcon} Add to Concert</button>
         </div>
     );
 };

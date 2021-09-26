@@ -8,7 +8,7 @@ const Cart = (props) => {
         total = total + band.bookingCost;
     }
     return (
-        <div>
+        <div className="cart-container">
             <h3 className="cart-title">Selection Summary</h3>
             <div className="selected-bands">
                 {

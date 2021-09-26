@@ -7,25 +7,36 @@ img{
 }
 .card{
     padding: 5px;
-    border: 1px solid rgba(128, 128, 128, 0.432);
+    background-color: rgba(128, 128, 128, 0.884);
     margin: 10px;
     border-radius: 10px;
     transition: 0.3s;
 }
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.year-text{
+    color: brown;
+}
 .card:hover{
     transform: scale(1.05);
-    box-shadow: 5px 5px 50px black;
+    background-color: rgba(128, 128, 128, 0.973);
+    box-shadow: 5px 5px 20px black;
 }
 .btn-add{
-    background-color: burlywood;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
     margin: 5px;
     padding: 10px;
     border: none;
     border-radius: 5px;
 }
 .btn-add:hover{
-    background-color: black;
-    color: white;
+    background-color: lightgray;
+    color: black;
     cursor: pointer;
 }
 table{
@@ -41,5 +52,6 @@ td{
 }
 .booking-charge{
     font-size: 30px;
-    color: brown;
+    color: rgba(255, 0, 0, 0.582);
+    font-weight: 500;
 }
