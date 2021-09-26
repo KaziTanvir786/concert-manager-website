@@ -1,15 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faPlus, faGuitar } from '@fortawesome/free-solid-svg-icons';
 import './Card.css';
 
 const Card = (props) => {
     console.log(props);
     const { id, name, genre, country, vocal, img, year, bookingCost } = props.band;
     const addIcon = <FontAwesomeIcon icon={faPlus} />
+    const guitarIcon = <FontAwesomeIcon icon={faGuitar} />
     return (
         <div className="card">
-            <h4 className="card-title">{name}</h4>
+            <h4 className="card-title">{guitarIcon} {name}</h4>
             <div className="image-container">
                 <img src={img} alt="" />
             </div>
