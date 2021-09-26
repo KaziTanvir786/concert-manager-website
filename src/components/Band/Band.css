@@ -1,0 +1,13 @@
+.band-list-item{
+    display: flex;
+    align-items: center;
+    background-color: slategray;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.band-list-item img{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 70px;
+    height: 40px;
+}

@@ -1,19 +1,20 @@
 .image-container{
-    height: 180px;
+    height: 100px;
 }
 img{
     width: 200px;
     border-radius: 10px;
 }
 .card{
-    border: 1px solid black;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.432);
     margin: 10px;
     border-radius: 10px;
     transition: 0.3s;
 }
 .card:hover{
     transform: scale(1.05);
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 5px 5px 50px black;
 }
 .btn-add{
     background-color: burlywood;
@@ -26,4 +27,19 @@ img{
     background-color: black;
     color: white;
     cursor: pointer;
+}
+table{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+td{
+    line-height: 0;
+    text-align: left;
+}
+.row-title{
+    width: 40px;
+}
+.booking-charge{
+    font-size: 30px;
+    color: brown;
 }
