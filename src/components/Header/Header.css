@@ -3,6 +3,7 @@
     justify-content: center;
 }
 .top-bar{
+    line-height: 80%;
     background-color: rgba(0, 0, 0, 0.692);
     text-align: center;
     padding: 5px;
@@ -14,6 +15,9 @@
 }
 .text-style-big{
     color: rgb(206, 17, 17);
+}
+.small-text{
+    font-size: 16px;
 }
 .navbar{
     display: flex;
