@@ -1,9 +1,5 @@
 # concert-manager
 
-The necessary links of the repository and the live site are given below:
-
-### [Code Repo link](https://github.com/ProgrammingHeroWC4/the-superhero-direction-KaziTanvir786)
-
 ### [Live Site link](https://concert-manager-kazitanvir786.netlify.app/)
 
 This text documentation (given below) will allow to understand the projects overview and purposes.
